@@ -35,12 +35,11 @@ namespace myMicroservice
                     //options.DescribeAllEnumsAsStrings();
                     options.SwaggerDoc("v1", new OpenApiInfo
                     {
-                        Title = "eShopOnContainers - Catalog HTTP API",
+                        Title = "Store Service HTTP API",
                         Version = "v1",
                         Description = "The Catalog Microservice HTTP API. This is a Data-Driven/CRUD microservice sample"
                     });
                 });
-            services.AddRouteAnalyzer();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
